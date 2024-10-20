@@ -2,7 +2,7 @@
 ## IN THE SAME ORDER AS THE ARGUMENTS ARE TAKEN FROM THE
 ## COMMAND LINE SPECIFIED BELOW
 import sys
-x = sys.argv[1]
+x = int(sys.argv[1])
 
 def main(x) :
 	## YOU CODE SHOULD START HERE AST THE SAME
@@ -29,7 +29,7 @@ def main(x) :
 	return (resultat)
 		
 
-print(main(x))
+
 
 
 
@@ -46,6 +46,7 @@ print(main(x))
 ## DO NOT REMOVE THIS LINE BELOW
 if __name__ == "__main__" :
 	main(x)
+	print(main(x))
 
 	## MODIFY THE LINE BELOW AND ADD BEFORE WHATEVER LINES ARE NECESSARY
 	## TO RUN THIS PROGRAM AS, FOR INSTANCE:
