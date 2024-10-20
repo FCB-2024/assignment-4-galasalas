@@ -1,8 +1,6 @@
 ## ADD WHATEVER ARGUMENTS ARE NECESSARY TO THE MAIN FUNCTION
 ## IN THE SAME ORDER AS THE ARGUMENTS ARE TAKEN FROM THE
 ## COMMAND LINE SPECIFIED BELOW
-import sys
-x = int(sys.argv[1])
 
 def main(x) :
 	## YOU CODE SHOULD START HERE AST THE SAME
@@ -28,7 +26,7 @@ def main(x) :
 			resultat = "not anti-prime"
 	return (resultat)
 		
-
+print(main(x))
 
 
 
@@ -45,8 +43,10 @@ def main(x) :
 
 ## DO NOT REMOVE THIS LINE BELOW
 if __name__ == "__main__" :
+	import sys
+	x = int(sys.argv[1])
 	main(x)
-	print(main(x))
+	
 
 	## MODIFY THE LINE BELOW AND ADD BEFORE WHATEVER LINES ARE NECESSARY
 	## TO RUN THIS PROGRAM AS, FOR INSTANCE:
