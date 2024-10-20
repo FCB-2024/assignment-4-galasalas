@@ -27,13 +27,6 @@ def main(x) :
 	return (resultat)
 		
 
-
-
-
-
-	
-
-
 	## THE LAST LINES OF YOUR CODE SHOULD EITHER
 	## RETURN THE VALUE "anti-prime" or "not anti-prime"
 	## REPLACE THE FOLLOWING LINE BY WHATEVER LINES
@@ -45,8 +38,9 @@ def main(x) :
 if __name__ == "__main__" :
 	import sys
 	x = int(sys.argv[1])
-	main(x)
-print(main(x))
+	print(main(x))
+
+
 
 	## MODIFY THE LINE BELOW AND ADD BEFORE WHATEVER LINES ARE NECESSARY
 	## TO RUN THIS PROGRAM AS, FOR INSTANCE:
