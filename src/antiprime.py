@@ -2,14 +2,14 @@
 ## IN THE SAME ORDER AS THE ARGUMENTS ARE TAKEN FROM THE
 ## COMMAND LINE SPECIFIED BELOW
 import sys
-x = int(sys.argv[1])
+x = sys.argv[1]
 
 def main(x) :
 	## YOU CODE SHOULD START HERE AST THE SAME
 	## IDENTATION AS THIS COMMENT
 	i = 1
 	div_x = 0
-	while (i <= int(x)):
+	while (i <= x):
 		if (x % i == 0):
 			div_x = div_x + 1
 		i = i + 1
