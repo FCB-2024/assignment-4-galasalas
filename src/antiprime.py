@@ -26,7 +26,7 @@ def main(x) :
 			resultat = "not anti-prime"
 	return (resultat)
 		
-print(main(x))
+
 
 
 
@@ -46,7 +46,7 @@ if __name__ == "__main__" :
 	import sys
 	x = int(sys.argv[1])
 	main(x)
-	
+print(main(x))
 
 	## MODIFY THE LINE BELOW AND ADD BEFORE WHATEVER LINES ARE NECESSARY
 	## TO RUN THIS PROGRAM AS, FOR INSTANCE:
