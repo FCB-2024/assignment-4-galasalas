@@ -10,11 +10,11 @@ def main(x) :
 	i = 1
 	div_x = 0
 	while (i <= int(x)):
-		if (int(x) % i == 0):
+		if (x % i == 0):
 			div_x = div_x + 1
 		i = i + 1
 
-	y = int(x) - 1
+	y = x - 1
 	for e in range(1,y):
 		div_y = 0
 		j = 1
