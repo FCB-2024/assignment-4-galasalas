@@ -7,12 +7,12 @@ def main(x) :
 	## IDENTATION AS THIS COMMENT
 	i = 1
 	div_x = 0
-	while (i <= x):
-		if (x % i == 0):
+	while (i <= int(x)):
+		if (int(x) % i == 0):
 			div_x = div_x + 1
 		i = i + 1
 
-	y = x - 1
+	y = int(x) - 1
 	for e in range(1,y):
 		div_y = 0
 		j = 1
@@ -25,7 +25,7 @@ def main(x) :
 		else:
 			resultat = "not anti-prime"
 	return (resultat)
-		
+
 
 	## THE LAST LINES OF YOUR CODE SHOULD EITHER
 	## RETURN THE VALUE "anti-prime" or "not anti-prime"
@@ -38,7 +38,8 @@ def main(x) :
 if __name__ == "__main__" :
 	import sys
 	x = int(sys.argv[1])
-	print(main(x))
+	
+	
 
 
 
@@ -47,4 +48,4 @@ if __name__ == "__main__" :
 	## $ python antiprime.py 6
 	## WHERE THE FIRST ARGUMENT IS A POSITIVE INTEGER NUMBER FOR WHICH
 	## YOU WANT TO FIGURE OUT WHETHER IS ANTI-PRIME OR NOT
-	## print(main())
+	print(main(x))
