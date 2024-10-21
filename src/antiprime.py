@@ -20,11 +20,14 @@ def main(x) :
 			if (e % j == 0):
 				div_y = div_y + 1
 			j = j + 1
-		if (div_x > div_y):
-			resultat = "anti-prime"
+		if (div_y >= div_x):
+			return("not anti-prime") 
+			y = 0
 		else:
-			resultat = "not anti-prime"
-	return (resultat)
+			y = y - 1
+			div_y = 0
+	if (div_y < div_x):
+		return ("anti-prime")
 
 
 	## THE LAST LINES OF YOUR CODE SHOULD EITHER
