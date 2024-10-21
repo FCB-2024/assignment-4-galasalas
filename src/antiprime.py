@@ -7,19 +7,21 @@ def main(x) :
 	## IDENTATION AS THIS COMMENT
 	i = 1
 	div_x = 0
+	y = int(x) - 1
+	div_y = 0
+
 	while (i <= int(x)):
 		if (int(x) % i == 0):
 			div_x = div_x + 1
 		i = i + 1
 
-	y = int(x) - 1
-	for e in range(1,y):
-		div_y = 0
-		j = 1
-		while (j <= e):
-			if (e % j == 0):
+	while (y >= 1):
+		i = 1
+		while (i <= y):
+			if (y % i == 0):
 				div_y = div_y + 1
-			j = j + 1
+			i = i + 1
+
 		if (div_y >= div_x):
 			return("not anti-prime") 
 			y = 0
